@@ -13,4 +13,7 @@ export const AssetsConstants = {
   humor: "/assets/svg/humor.svg",
   play: "/assets/svg/play.svg",
   footerBg: "/assets/png/footer-bg.png",
+  footerAvatar: "/assets/svg/avatar.svg",
+  arrowUp: "/assets/svg/arrow-up.svg",
+  rotateSquare: "/assets/svg/rotated-square.svg",
 };
