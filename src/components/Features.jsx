@@ -1,33 +1,33 @@
+import FeatureCard from "./ui/FeatureCard";
 import { AssetsConstants } from "../constants/assets_constants";
 
 export const Features = () => {
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center mt-[52px]">
       {/* Feature Title */}
-      <p>Advanced Features & Benefits</p>
-
-      {/* Feature SubTitle */}
-      <p>
-        We provide four categories of services and you will get high quality
-        services from here
+      <p className="text-[var-(--featuresText)] font-medium text-[40px] font-prompt text-center">
+        Advanced Features & Benefits
       </p>
 
-      {/* Features Card */}
-      <div className="flex flex-row items-center justify-center">
-        <div className="flex flex-col items-center justify-center gap-[26px]">
-          {/* Card  */}
-          <div className="relative inline-block p-[2px] bg-white rounded-lg shadow-[6px_6px_0px_0px_#000000]">
-            <img
-              src={AssetsConstants.plugPlay}
-              alt="img"
-              className="block w-full h-auto rounded-lg border-2 border-[#000000] shadow-inner "
-            />
-          </div>
+      {/* Feature SubTitle */}
+      <p className="font-normal text-[16px] text-[var(--subTitle)] text-center mt-[14px]">
+        We provide four categories of services and
+        <br />
+        you will get high quality services from here
+      </p>
 
-          {/* Card Title */}
-          <p>Plug-and-Play</p>
-        </div>
+      {/* Features Cards */}
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[160px] mt-[64px]">
+        <FeatureCard
+          imageSrc={AssetsConstants.plugPlay}
+          title="Plug-and-Play"
+        />
+        <FeatureCard imageSrc={AssetsConstants.fillerFun} title="FillerFun" />
+        <FeatureCard imageSrc={AssetsConstants.apiKits} title="API Kits" />
+        <FeatureCard imageSrc={AssetsConstants.engageFul} title="Engageful" />
       </div>
+
+      {/* Get Free Trial */}
     </section>
   );
 };

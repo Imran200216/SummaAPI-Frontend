@@ -6,4 +6,11 @@ export const AssetsConstants = {
   fillerFun: "/assets/svg/filler-fun.svg",
   apiKits: "/assets/svg/api-kits.svg",
   engageFul: "/assets/svg/engageful.svg",
+  arrowForward: "/assets/svg/arrow-forward.svg",
+  marvelApi: "/assets/png/marvel-api.png",
+  entertainment: "/assets/svg/entertainment.svg",
+  education: "/assets/svg/education.svg",
+  humor: "/assets/svg/humor.svg",
+  play: "/assets/svg/play.svg",
+  footerBg: "/assets/png/footer-bg.png",
 };

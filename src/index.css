@@ -5,12 +5,33 @@
   --primary: #0778ee;
   --secondary: #ffffff;
   --title: #000000;
-  --subTitle: #687887;
+  --subTitle: #394b58;
   --btnTitle: #fafafa;
   --heroBg: #edf5fe;
 
   --viewContainerBg: #1a2b3b;
-  --heroTitle: #1A2B3B;
+  --heroTitle: #1a2b3b;
+  --featuresText: #0b2131;
+
+  /* Api List Tile Colors */
+  --marvelApiListTitleColor: #f67e7f;
+  --dcComicsApiListTitleColor: #757bf3;
+  --animeApiListTileColor: #55b9b7;
+  --nostalgicCartoonsApiListTileColor: #f67cab;
+  --comediesApiListTileColor: #ff76f2;
+  --dialoguesApiListTileColor: #757bf3;
+  --wondersApiListTileColor: #f67e7f;
+  --dinosaursSpeciesApiListTileColor: #f67cab;
+  --factsApiListTileColor: #55b9b7;
+  --booksApiListTileColor: #7cb7f6;
+  --designerPickUpLinesApiListTitleColor: #f67e7f;
+  --generalPickUpLinesApiListTileColor: #757bf3;
+  --developerPickUpLinesApiListTileColor: #55b9b7;
+  --developreFunnyRoastApiListTileColor: #f67cab;
+  --emojiQuotesApiListTileColor: #f67cab;
+  --cricketApiListTileColor: #f67e7f;
+  --tamilFreedomFightersApiListTileColor: #7eaff6;
+  --tamilProverbApiListTileColor: #957ef6;
 }
 
 * {
